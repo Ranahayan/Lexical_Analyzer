@@ -1,0 +1,7 @@
+FUNCTION max(a,b:integer):integer;
+  BEGIN       {this is comment}
+    IF a>=b THEN
+      max:=a
+    ELSE
+      max:=b
+  END;
